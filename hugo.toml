@@ -1,0 +1,27 @@
+theme = "hermit-v2"
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Yu Joi'
+
+[[params.socialLinks]]
+    name = "x"
+    url = "https://twitter.com/"
+
+[[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/"
+[[params.socialLinks]]
+    name = "email"
+    url = "https://github.com/"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about-hugo/"
+    weight = 20
