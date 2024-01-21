@@ -3,6 +3,14 @@ baseURL = 'https://joooi13.github.io/'
 languageCode = 'en-us'
 title = 'Yu Joi'
 
+custom_css = ["custom_css/foo.css","custom_css/bar.css"]
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
 [[params.socialLinks]]
     name = "x"
     url = "https://twitter.com/"
@@ -23,5 +31,5 @@ title = 'Yu Joi'
 
   [[menu.main]]
     name = "About"
-    url = "about-hugo/"
+    url = "about/"
     weight = 20
