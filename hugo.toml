@@ -22,16 +22,15 @@ custom_css = ["custom_css/foo.css","custom_css/bar.css"]
     name = "github"
     url = "https://github.com/joooi13"
 [[params.socialLinks]]
+    name = "note"
+    url = "https://note.com/joooi13"
+
+[[params.socialLinks]]
     name = "email"
     url = "mailto:joinc.dev.info@gmail.com"
 
 
 [menu]
-
-  [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 10
 
   [[menu.main]]
     name = "About"
